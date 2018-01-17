@@ -1,0 +1,112 @@
+[{
+		Project: "Dynappix.Sourcecode.5.0",
+		Assemblies: [{
+				AssemblyName: "SourceCode.Forms.Controls.Web.SDK.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Management.dll", 
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Framework.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.HostClientAPI.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Authoring.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Management.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Services.ServiceSDK.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Workflow.Client.dll",
+				FullPath: ""
+			}
+		]
+	}, {
+		Project: "Dynappix.Sourcecode.Brokers.5.0",
+		Assemblies: [{
+				AssemblyName: "SourceCode.HostClientAPI.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Client.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Services.Endpoints.AssemblyService.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Services.ServiceSDK.dll",
+				FullPath: ""
+			}
+		]
+	}, {
+		Project: "Dynappix.Sourcecode.Functions.5.0",
+		Assemblies: [{
+				AssemblyName: "SourceCode.Workflow.Functions.Design.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Workflow.Functions.dll",
+				FullPath: ""
+			}
+		]
+	}, {
+		Project: "Dynappix.Sourcecode.Smartforms.5.0",
+		Assemblies: [
+			{
+				AssemblyName: "SourceCode.Forms.Authoring.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Client.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Controls.Web.ControlPack.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Controls.Web.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Controls.Web.ManagementControlPack.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Controls.Web.SDK.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Controls.Web.Shared.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Deployment.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Design.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Management.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Runtime.Common.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Utilities.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Forms.Web.Controls.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.Framework.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.HostClientAPI.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Client.dll",
+				FullPath: ""
+			}, {
+				AssemblyName: "SourceCode.SmartObjects.Management.dll",
+				FullPath: ""
+			}
+		]
+	}
+]
