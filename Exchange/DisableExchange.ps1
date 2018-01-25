@@ -5,4 +5,5 @@ get-service msExchange* | ? {
 }
 
 
-Get-ChildItem -Path IIS:\AppPools | ?{$_.Name -like "MSExchange*"} | Stop-WebAppPool
+Get-ChildItem -Path IIS:\AppPools | ?{$_.Name -like "MSExchange*"} | Stop-WebAppPool  -ErrorAction SilentlyContinue
+

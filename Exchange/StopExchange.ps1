@@ -8,4 +8,5 @@ $websites | % {Get-WebSite -Name $_} | Stop-Website
 
 Get-ChildItem -Path IIS:\AppPools | ? {
 	$_.Name -like 'MSExchange*'
-} | Stop-WebAppPool
+} | Stop-WebAppPool  -ErrorAction SilentlyContinue
+
