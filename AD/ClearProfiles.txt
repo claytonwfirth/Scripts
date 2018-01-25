@@ -1,0 +1,4 @@
+Get-WMIObject -class Win32_UserProfile | Where {(!$_.Special) -and ($_.LastUseTime -eq $null)} | Remove-WmiObject
+
+
+Get-WMIObject -class Win32_UserProfile | Where {(!$_.Special) -and $_.ConvertToDateTime($_.LastUseTIme) -lt [datetime]::Today.AddDays(-90)} |  Remove-WmiObject
